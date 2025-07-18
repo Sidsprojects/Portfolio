@@ -6,6 +6,7 @@
     flex-direction: column;
     padding: 2vw;
     gap: 2vh;
+    border: 2px solid green;
 }
 
 .card {

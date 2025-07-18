@@ -1,3 +1,14 @@
 .proj-info{
-    border: 2px solid green;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2vw;
+    gap: 2vh;
+    border: 2px solid blue;
+}
+
+.Image-vid video{
+    width: 350px;
 }
