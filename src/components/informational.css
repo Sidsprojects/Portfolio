@@ -1,0 +1,18 @@
+.right-component{
+    display: flex;
+    width: 65vw;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    margin-left: 35vw;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    color: rgb(148, 163, 184);
+}
+
+/* About section */
+.informational-comps{
+    display: flex;
+    justify-content: center;
+}

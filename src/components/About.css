@@ -1,0 +1,26 @@
+.About-info{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+    padding: 10px;
+}
+.light-up{
+    color: rgb(223, 219, 219);
+}
+.scroll-ani img{
+    width: 40px;
+    animation: float 1s ease-in-out infinite;
+    transform: translateY(-50%);
+    transition: opacity 0.5s ease;
+    margin-top: 5vh;
+}
+
+@keyframes float {
+    0%   { transform: translateY(-50%) translateY(0px); }
+    50%  { transform: translateY(-50%) translateY(-15px); }
+    100% { transform: translateY(-50%) translateY(0px); }
+  }

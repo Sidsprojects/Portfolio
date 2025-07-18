@@ -1,0 +1,91 @@
+.left-component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    flex-direction: column;
+    position: fixed;
+    width: 35vw;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    color: rgb(226, 232, 240);
+    font-size: 13px;
+}
+.related-info{
+    width: 30vw;
+}
+
+
+/* image hover 3d effect */
+.my-image{
+    display: flex;
+    justify-content: center;
+    perspective: 1000px;
+    width: 200px;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+.my-image img{
+    width: 200px;
+    box-shadow: 0 20px 40px rgb(71, 68, 68);
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    transition: transform 0.15s ease;
+    transform-style: preserve-3d;
+    
+}
+.small-desc{
+    color: rgb(148, 163, 184);
+}
+/* routing CSS */
+.routing{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    color:  rgb(148, 163, 184);
+}
+.route-links{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+.route-links span{
+    height: 1px;
+    width: 1rem;
+    background-color: rgb(132, 141, 155);
+}
+.route-links p{
+    text-decoration: none;
+    color:  rgb(148, 163, 184);
+    margin: 1vh;
+}
+.active-link{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+.active-link span{
+    height: 1px;
+    width: 3rem;
+    background-color: rgb(217, 221, 226);
+}
+.active-link p{
+    text-decoration: none;
+    color:  rgb(215, 220, 227);
+    margin: 1vh;
+}
+
+/* Social Links */
+.socials{
+    display: flex;
+    gap: 1vw;
+}
+.socials a img{
+    width: 20px;
+}
