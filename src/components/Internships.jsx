@@ -38,6 +38,7 @@ export const Internships = () => {
             <span className="blobs">Node.js</span>
             <span className="blobs">UI/UX</span>
             <span className="blobs">MongoDb</span>
+            <span className="blobs">Github</span>
           </div>
         </div>
       </div>
@@ -79,6 +80,7 @@ export const Internships = () => {
             <span className="blobs">Node.js</span>
             <span className="blobs">UI/UX</span>
             <span className="blobs">React.js</span>
+            <span className="blobs">Github</span>
           </div>
           <div className="skills"></div>
         </div>
@@ -110,6 +112,7 @@ export const Internships = () => {
             <span className="blobs">Node.js</span>
             <span className="blobs">UI/UX</span>
             <span className="blobs">React.js</span>
+            <span className="blobs">Github</span>
           </div>
         </div>
       </div>

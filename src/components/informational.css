@@ -4,7 +4,6 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    border: 2px solid red;
     margin-left: 35vw;
     font-family: 'Inter', sans-serif;
     font-size: 13px;
@@ -16,4 +15,38 @@
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+.Footer{
+    width: 80%;
+    font-style: "inter";
+    
+}
+.Footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+@media (max-width: 1024px) {
+    .right-component{
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        color: rgb(148, 163, 184);
+        margin-left: 0vw;
+    }
+    .Footer{
+        width: 95%;
+        font-style: "inter";
+        
+    }
+    .Footer a {
+        text-decoration: none;
+        color: aliceblue;
+    }
 }

@@ -85,7 +85,7 @@ export const Fixed_left = () => {
           <span></span>
           <p>Internships</p>
         </a>
-        <a href="" className={activeSection === "#Projects" ? "active-link" : "route-links"}>
+        <a href="#Projects" className={activeSection === "#Projects" ? "active-link" : "route-links"}>
           <span></span>
           <p>Projects</p>
         </a>

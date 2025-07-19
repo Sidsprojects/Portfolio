@@ -1,6 +1,7 @@
 import React, { useState,useEffect } from "react";
 import "./About.css";
 import scroll from "../assets/Scroll.png"
+import resume from "../assets/Siddharth_shukla.pdf"
 export const About = () => {
   const [hideimage,sethideimage] = useState(false)
 
@@ -12,6 +13,9 @@ export const About = () => {
 
   return (
     <div className="About-info">
+      <a href={resume} download>
+      <button className="download-btn" download>Download Resume</button>
+      </a>
       <p>
         I’m a software developer obsessed with precision whether it’s writing
          <b className="light-up"> clean backend logic, sculpting responsive UIs</b>, or chasing down a single
