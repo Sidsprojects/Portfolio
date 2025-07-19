@@ -13,7 +13,7 @@ export const Projects = () => {
           <h3>
             <b className="light-up">
               <a href="https://github.com/Sidsprojects/Ecommerce-website" target="_blank">
-                Customer Dashboard
+                FullStack Website - MERN stack
               </a>
             </b>
           </h3>
